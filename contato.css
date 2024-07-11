@@ -1,0 +1,12 @@
+h1{ /*estilização da faixa cabeçalho*/
+    background-color: orange;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu{
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 45%;
+    margin-right: 45%;
+}

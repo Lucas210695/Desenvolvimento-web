@@ -1,0 +1,32 @@
+h1{
+    font-size: 50px; /*ajuste de tamanho do título*/
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: auto;
+    padding: 15px; /*espaçamento entre a lista de itens*/
+    background-color: orange;
+}
+
+ul{
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: auto; 
+    width: 250px; 
+    list-style-type: none;   /*retirar bolinhas da lista*/ 
+}
+
+li{
+    border: 1px solid black;
+    padding: 8px; /*espaçamento entre os elementos*/
+    background-color: blanchedalmond;
+}
+
+li a {
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    font-size: 20px;  
+}
+  
+

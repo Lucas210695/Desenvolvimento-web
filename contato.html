@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre em Contato</title>
+    <link rel="stylesheet" href="./arquivoscss/contato.css">
+
+</head>
+
+<body>
+
+    <h1>Entre em Contato</h1>
+    <h2>Preencha o formulário abaixo para entrar em contato :</h2> <!-- título secundário -->
+
+    <form action="/submit" method="post">  <!-- Criação do formulário de contato -->
+        <label >Data Atual:</label>
+        <input type="date" id="Data" name="data atual" required><br><br>
+        
+        <label >Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label >E-mail:</label>
+        <input type="text" id="email" name="email" required><br><br>
+
+        <label >Telefone de contato:</label> <!-- Espaço para preenchimentod e contato com modelo -->
+        <input type="text" id="telefone" name="telefone" placeholder=" (XX) XXXXX-XXXX" required><br><br>
+
+        <label >Empresa Representante:</label>
+        <input type="text" id="empresa" name="empresa" ><br><br>
+
+        <label >Tipo de contato:</label><br> <!-- seleção de tipo de mensagem -->
+        <input type="checkbox" id="pessoal">
+        <label for="pessoal">Pessoal</label><br>
+        <input type="checkbox" id="profissional">
+        <label for="profissional">Profissional</label><br><br>
+
+        <label>Assunto Principal:</label><br>
+        <input type="texto" id="assunto principal" required><br><br>
+
+        <label for="messagem" >Mensagem:</label><br> <!-- Espaço para mensagem -->
+        <textarea id="messagem" name="messagem" rows="4" cols="50" placeholder="Digite sua mensagem aqui..."></textarea><br><br>
+
+        <input type="submit" value="Enviar"><br><br>   <!-- Botão para enviar o formulário -->
+        
+    </form>
+
+    <p class="menu">
+        <a href="index.html">Página principal</a>
+    </p>
+  
+</body>
+</html>
